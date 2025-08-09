@@ -2,7 +2,7 @@ library(plumber)
 library(randomForest)
 
 # Load the saved model
-model <- readRDS("model.RDS")
+model <- readRDS("model.rds")
 
 #* @post /predict
 #* @serializer json
